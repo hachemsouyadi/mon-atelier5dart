@@ -1,6 +1,6 @@
 class MotdepasseCourtException implements Exception{
   @override
-  String hi(){
+  String toString(){
     return 'Mdp trop court (exception personnalisée)';}
 }
 void verifierMotdepasse(String mp) {
