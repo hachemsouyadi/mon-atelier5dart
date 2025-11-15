@@ -9,4 +9,10 @@ void main(){
   } 
   on FormatException catch(e){ 
     print("Format invalide$e"); 
-  }}
+  }
+  finally {
+  print('Fin doperation');
+}
+
+}
+  
